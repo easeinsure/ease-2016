@@ -1,0 +1,250 @@
+
+body {font-family: "Open Sans", Helvetica, sans-serif;}
+header{ background:#eee; padding:15px 0}
+header ul{ display:block; margin:0 0 20px 0; padding:0; float:right}
+header ul li{ display:inline-block; width:auto; margin:0 5px; padding:0;}
+header ul li:last-child{margin:0 0;}
+header ul li a{ color:#555}
+header ul li a:hover{ color:#1757b8; text-decoration:none}
+.header-bottom{ display:inline-block; width:100%; text-align:right; text-transform:uppercase; color:#1757b8; font-size:16px; font-weight:700}
+.header-bottom span{color:#18a900}
+.header-bottom a{ margin-left:5px; transition: all 0.5s ease-in-out 0s;}
+.navbar-inverse {background-color:#fff;border-top:1px solid #ccc; border-bottom:1px solid #ccc}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+background-color: #18a900;color: #fff;}
+.navbar-inverse .navbar-nav > li > a {color:#333;transition: all 0.5s ease-in-out 0s;}
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {background-color:#eee;color: #18a900;}
+.nav > li > a {padding:15px 40px; border-left:1px solid #ccc}
+.nav > li:last-child > a{border-right:1px solid #ccc}
+.carousel img{ width:100%}
+.navbar{ margin-bottom:0}
+.blue-btn{ background:#1757b8; border:1px solid #1757b8; color:#fff; font-weight:600}
+.blue-btn:hover{ background:#2a6bce;color:#fff}
+.green-btn{ background:#18a900; border:1px solid #18a900; color:#fff; font-weight:600}
+.green-btn:hover{ background:#78d32e;color:#fff}
+.orange-btn{ background:#74cd2c; border:1px solid #ff7841; color:#fff; font-weight:600}
+.orange-btn:hover{ background:#ff976c;color:#fff}
+.tabdiv { position:absolute; top:7%; display:inline-block; width:100%}
+.tabdiv .nav > li > a {padding: 10px 15px; border:0; border-radius:0}
+.tabdiv .nav > li > a {background-color:rgba(24,169,0,0.8); color:#fff}
+.tabdiv .nav-tabs > li.active > a, .tabdiv .nav-tabs > li.active > a:focus, .tabdiv .nav-tabs > li.active > a:hover {background:rgba(255,255,255,0.8); border:0; color:#18a900}
+.tabdiv .tab-content > .active {background:rgba(255,255,255,0.8);}
+.nav-tabs > li {margin-bottom: 0;}
+.tab-pane.active {padding: 20px 15px 10px 15px;}
+.tabdiv label {font-weight: 400;}
+.tabdiv .form-control {
+  background-color: #fff;
+  background-image: none;
+  border:0;
+  border-radius:0;
+  box-shadow: none;
+  color: #555;
+  display: block;
+  font-size: 14px;
+  height: 34px;
+  line-height: 1.42857;
+  padding: 6px 12px;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  width: 100%;
+}
+.welcome{ padding:40px 0; font-size:20px; line-height:30px }
+.welcome h1{ margin:10px 0 20px 0; font-size:60px; font-weight:300; color:#18a900}
+.box{ background:#eee; border-radius:10px; margin:15px 0; font-size:30px; font-weight:300; padding:50px 20px;transition: all 0.5s ease-in-out 0s;}
+.box .glyph-icon{ color:#18a900; transition: all 0.5s ease-in-out 0s;}
+.box p{ margin:15px 0 0 0}
+.boxlink{ color:#333}
+.boxlink:hover{ text-decoration:none; color:#fff}
+.boxlink:hover .box .glyph-icon{ color:#fff}
+.boxlink:hover .box{ background:#1757b8;}
+.carousel-control.left {background-image:none;}
+.carousel-control.right {background-image:none;}
+.carousel-control{ z-index:100}
+.testimonial{ background:#18a900; padding:50px 0}
+.user{ width:150px; height:150px; margin:0 auto 20px auto; border-radius:100%;}
+.user img{width:100%; height:100%; border-radius:100%}
+.services{ padding:0 0 35px 0}
+.testimonial h2{ text-align:center; font-size:40px; font-weight:300; margin:0 0 30px 0; color:#fff}
+.testimonial .carousel-caption2 { width:100%; margin:0 auto; color:#fff; text-align:center; font-size:16px; font-style:italic; line-height:24px}
+.testimonial .carousel.slide {height:auto; padding:0 0 30px 0}
+.testimonial .carousel-indicators {bottom: 0;}
+.user{ margin:30px auto}
+.testimonial .carousel-inner{ background:url(../images/chat.png) no-repeat; }
+.social{ text-align:center; background:#eee; padding:50px 0}
+.social h2 {
+  color: #333;
+  font-size: 40px;
+  font-weight: 300;
+  margin: 0 0 30px;
+  text-align: center;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+  background: rgba(255, 255, 255, 0.5) none repeat scroll 0 0;border-radius: 50%;color: #18a900;font-size: 20px;height: 70px;line-height: 70px;width: 70px;}
+.footer {background:#303236;color: #9d9e9f;padding: 40px 0;}
+.footer h2 {font-size: 30px;margin: 0 0 20px;text-align: left;}
+.footer ul {display: inline-block;list-style-type: none;margin: 0;padding: 0;}
+.footer li {display: block;list-style-type: none;margin: 0;padding: 0;}
+.footer li a {color: #969698;display: block;margin: 0;padding: 3px 0;transition: all 0.5s ease-in-out 0s}
+.footer li a:hover {
+    color: #18a900;
+    text-decoration: none;
+}
+.footer li a .fa {
+    color: #18a900;
+    margin-right: 10px;
+}
+.footer h3 {
+    margin: 0 0 20px;
+}
+.copyright {
+    background: #24262a none repeat scroll 0 0;
+    color: #5e5f62;
+    padding:40px 0;
+}
+.copyright a {
+    color: #fff;
+    margin-left: 10px;
+}
+.copyright a:hover {
+    color: #00a44c;
+    text-decoration: none;
+}
+.follow{ margin:0; padding:0; list-style-type:none; display:inline-block}
+.follow li{ margin:0 5px 0 0; padding:0; list-style-type:none; display:inline-block}
+.follow li a {background: #fff none repeat scroll 0 0;border: 1px solid #ccc;color: #0066b3; width:40px; height:40px; text-align:center; line-height:32px; border-radius:4px; font-size:20px}
+.follow li a .fa{margin:0}
+.follow li a .fa-facebook{ color:#1757b8}
+.follow li a .fa-twitter{ color:#45b6f0}
+.follow li a .fa-linkedin{ color:#056a9f}
+.follow li a .fa-youtube{ color:#e00000}
+.follow li a:hover{background: #eee}
+.search-form .form-group {
+  float: right !important;
+  transition: all 0.35s, border-radius 0s;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius:4px;
+  border: 1px solid #ccc;}
+.search-form {bottom: -10px;display: inline-block;position: relative;}
+.search-form .form-group input.form-control {padding-right: 20px;border: 0 none;background: #1757b8 ;box-shadow: none;display:block;color:#fff; padding-top:5px}
+.search-form .form-group input.form-control::-webkit-input-placeholder {display: none;}
+.search-form .form-group input.form-control:-moz-placeholder {/* Firefox 18- */display: none;}
+.search-form .form-group input.form-control::-moz-placeholder {/* Firefox 19+ */display: none;}
+.search-form .form-group input.form-control:-ms-input-placeholder {display: none;}
+.search-form .form-group:hover,
+.search-form .form-group.hover {width: 100%;border-radius: 4px 4px 4px 4px;}
+.search-form .form-group span.form-control-feedback {position: absolute;top: 0px;right: -2px;z-index: 2;display: block;width: 34px;height: 34px;line-height: 34px;text-align: center;color: #fff;left: initial;font-size: 14px;}
+.search-form .form-group {margin-bottom: 0;}
+.search-form .form-control::-moz-placeholder {color: #fff;opacity: 1;}
+.vertical-slider{ background:#fff; border-radius:10px; display:inline-block; width:100%; padding:20px}
+.btn-vertical-slider{cursor:pointer;}
+a {cursor:pointer;}
+.carousel.vertical .carousel-inner .item {
+-webkit-transition: 0.6s ease-in-out top;
+-moz-transition: 0.6s ease-in-out top;
+-ms-transition: 0.6s ease-in-out top;
+-o-transition: 0.6s ease-in-out top;
+transition: 0.6s ease-in-out top;}
+.carousel.vertical .active {top: 0;}
+.carousel.vertical .next {top: 100%;}
+.carousel.vertical .prev {top: -100%;}
+ .carousel.vertical .next.left,
+.carousel.vertical .prev.right {top: 0;}
+.carousel.vertical .active.left {top: -100%;}
+.carousel.vertical .active.right {top: 100%;}
+ .carousel.vertical .item {left: 0;}
+.vertical-slider .thumbnail{ border:0; margin:0}
+.quote {display: inline-block;}
+.sliderdiv{ position:relative}
+.carousel-control{ width:auto}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+  margin-left: 10px;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+  margin-right: 10px;
+}
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(98, 189, 24, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top .glyphicon {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(23, 87, 184, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+@media (max-width:1500px){
+.tabdiv {top:3%;}}
+
+@media (max-width:1400px){
+.tabdiv {top:3%;}
+.form-group {margin-bottom: 10px;}
+}
+
+@media (max-width:1300px){
+.tabdiv {top:3%;}
+.form-group {margin-bottom:5px;}
+}
+
+@media (max-width:1200px){
+.nav > li > a {padding: 15px 20px;}
+.form-group {margin-bottom: 10px;}
+.tabdiv {background: #1757b8 none repeat scroll 0 0;padding: 50px 0;position: static;}
+}
+
+@media (max-width:1000px){
+.nav > li > a {padding: 15px 10px;}
+.search-form {width: 100%;}
+}
+@media (max-width:768px){
+.logo {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+header ul {
+  display: inline-block;
+  float: inherit;
+  margin: 10px 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;}
+.header-bottom {text-align: center;}
+.navbar-toggle{ background:#1757b8}
+.navbar-nav {margin: 0 -15px;}
+.copyright a {display: inline-block;margin-left: 10px;margin-top: 10px;}
+}
+@media (max-width:600px){
+.nav > li {display: inline-block;margin: 1px 0;width: 100%;}
+}

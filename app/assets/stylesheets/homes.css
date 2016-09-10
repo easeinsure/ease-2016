@@ -1,0 +1,74 @@
+/* Removes the default 20px margin and creates some padding space for the indicators and controls */
+.carousel {
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+}
+/* Reposition the controls slightly */
+.carousel-control {
+  left: -12px;
+}
+.carousel-control.right {
+  right: -12px;
+}
+/* Changes the position of the indicators */
+.carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.carousel-indicators li {
+  background: #c0c0c0;
+}
+.carousel-indicators .active {
+  background: #333333;
+}
+.underconstruction .item {
+  color:#fff;
+  line-height:22px
+}
+.carousel-indicators {
+  bottom: -20px;
+}
+.carousel {
+  margin-bottom: 0;
+  padding:30px 0;
+}
+.carousel-control {
+  top: 45%;
+  font-size:20px
+}
+.input-group .form-control {
+  height:40px;
+  border:0
+}
+.btn-default {
+  background-color: #62bd18;
+  border-color: #62bd18;
+  color: #fff;
+  height: 40px;
+  border-radius:0 4px 4px 0;
+  border:0;
+  font-weight:bold
+}
+.btn-default a {
+  color: #fff;
+}
+.vertical {position:relative; border-radius:5px}
+.up {
+  left: 47%;
+  position: relative;
+  top: -10px;
+}
+.ticker-headline a{  color:#555}
+
+.down {
+  left: 47%;
+  position: relative;
+  bottom: -10px;
+}
+
+.newscarousel{ padding:0}
+.newscarousel .up.carousel-control{ background:#1757b8; border-radius:3px; color:#fff; font-size:12px; text-align:center; width:30px; height:30px; line-height:30px; display:inline-block}
+.newscarousel .down.carousel-control{ background:#1757b8; border-radius:3px; color:#fff; font-size:12px; text-align:center; width:30px; height:30px; line-height:30px; display:inline-block}
