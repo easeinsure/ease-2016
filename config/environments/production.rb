@@ -13,7 +13,7 @@ Rails.application.configure do
   # Full error reports are disabled and caching is turned on.
   config.consider_all_requests_local       = false
   config.action_controller.perform_caching = true
-  config.secret_key = 'ca0bad93700dc71418b53f90bb1caa7dbfe955d5cef9f1da84ac9b5c4cacb250881a998dd32d14203f1256f0fd8956ef59e9419c04b9c4bb2adfabeb409f42ab'
+ 
   # Enable Rack::Cache to put a simple HTTP cache in front of your application
   # Add `rack-cache` to your Gemfile before enabling this.
   # For large-scale production use, consider using a caching reverse proxy like
