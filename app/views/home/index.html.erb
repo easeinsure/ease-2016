@@ -60,18 +60,18 @@
   
   
       <div id="carousel-example-vertical" class="carousel vertical slide newscarousel" style="margin-bottom:30px">
-      <a class="up carousel-control" href="#carousel-example-vertical" role="button" data-slide="prev">
+<!--       <a class="up carousel-control" href="#carousel-example-vertical" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
-      </a>
+      </a> -->
       <div class="carousel-inner a" role="listbox">
         <div class="item active b">
           
           
         <% @news.each do |news|%>
           
-          <p class="ticker-headline">
-            <a href="<%= news.url%>">
+          <p class="ticker-headline" onmouseover="stop();">
+            <a href="<%= news.url%>" target="_blank">
               <strong><%= news.name%></strong> <%= news.summary.html_safe%>
             </a>
           </p>
@@ -105,10 +105,10 @@
 
       <!-- Controls -->
       
-      <a class="down carousel-control" href="#carousel-example-vertical" role="button" data-slide="next">
+<!--       <a class="down carousel-control" href="#carousel-example-vertical" role="button" data-slide="next">
         <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
-      </a>
+      </a> -->
     </div>
     
     
@@ -178,5 +178,8 @@ function start(){
    setTimeout(function () {
     console.log("wait...");
 }, 5000);
-}    
+}  
+function stop(){
+  
+}  
 </script>
